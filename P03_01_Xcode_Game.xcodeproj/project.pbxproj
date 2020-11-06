@@ -7,7 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B03AD5C2550008E00DF21AF /* Wizzard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B03AD5B2550008E00DF21AF /* Wizzard.swift */; };
+		7B03AD5F2550009800DF21AF /* Crusader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B03AD5E2550009800DF21AF /* Crusader.swift */; };
+		7B03AD622550009F00DF21AF /* Barbarian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B03AD612550009F00DF21AF /* Barbarian.swift */; };
+		7B03AD65255000AC00DF21AF /* DemonHunter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B03AD64255000AC00DF21AF /* DemonHunter.swift */; };
+		7B5EB7B72555574B00000B46 /* Charmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EB7B62555574B00000B46 /* Charmer.swift */; };
+		7B5EB7BC255557E400000B46 /* Monk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EB7BB255557E400000B46 /* Monk.swift */; };
+		7B5EB7EC2555919800000B46 /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EB7EB2555919800000B46 /* Sword.swift */; };
+		7B5EB7EF255591F100000B46 /* Stick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EB7EE255591F100000B46 /* Stick.swift */; };
+		7B5EB7F22555920900000B46 /* Dagger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EB7F12555920900000B46 /* Dagger.swift */; };
+		7B5EB7F52555922C00000B46 /* Crossbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EB7F42555922C00000B46 /* Crossbow.swift */; };
 		7BF43CAB254C310700A43B15 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF43CAA254C310700A43B15 /* main.swift */; };
+		7BF43CB3254C5A2500A43B15 /* Weapons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF43CB2254C5A2500A43B15 /* Weapons.swift */; };
+		7BF43CB6254C5A3400A43B15 /* Champions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF43CB5254C5A3400A43B15 /* Champions.swift */; };
+		7BF43CB9254C5A3F00A43B15 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF43CB8254C5A3F00A43B15 /* Game.swift */; };
+		7BF43CBC254C5A6900A43B15 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF43CBB254C5A6900A43B15 /* Players.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +37,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B03AD5B2550008E00DF21AF /* Wizzard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wizzard.swift; sourceTree = "<group>"; };
+		7B03AD5E2550009800DF21AF /* Crusader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crusader.swift; sourceTree = "<group>"; };
+		7B03AD612550009F00DF21AF /* Barbarian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barbarian.swift; sourceTree = "<group>"; };
+		7B03AD64255000AC00DF21AF /* DemonHunter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemonHunter.swift; sourceTree = "<group>"; };
+		7B5EB7B62555574B00000B46 /* Charmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charmer.swift; sourceTree = "<group>"; };
+		7B5EB7BB255557E400000B46 /* Monk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monk.swift; sourceTree = "<group>"; };
+		7B5EB7EB2555919800000B46 /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
+		7B5EB7EE255591F100000B46 /* Stick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stick.swift; sourceTree = "<group>"; };
+		7B5EB7F12555920900000B46 /* Dagger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dagger.swift; sourceTree = "<group>"; };
+		7B5EB7F42555922C00000B46 /* Crossbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crossbow.swift; sourceTree = "<group>"; };
 		7BF43CA7254C310700A43B15 /* P03_01_Xcode_Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P03_01_Xcode_Game; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF43CAA254C310700A43B15 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7BF43CB2254C5A2500A43B15 /* Weapons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapons.swift; sourceTree = "<group>"; };
+		7BF43CB5254C5A3400A43B15 /* Champions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champions.swift; sourceTree = "<group>"; };
+		7BF43CB8254C5A3F00A43B15 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		7BF43CBB254C5A6900A43B15 /* Players.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,20 @@
 			isa = PBXGroup;
 			children = (
 				7BF43CAA254C310700A43B15 /* main.swift */,
+				7BF43CB5254C5A3400A43B15 /* Champions.swift */,
+				7B5EB7B62555574B00000B46 /* Charmer.swift */,
+				7B03AD64255000AC00DF21AF /* DemonHunter.swift */,
+				7B03AD5B2550008E00DF21AF /* Wizzard.swift */,
+				7B03AD5E2550009800DF21AF /* Crusader.swift */,
+				7B03AD612550009F00DF21AF /* Barbarian.swift */,
+				7B5EB7BB255557E400000B46 /* Monk.swift */,
+				7BF43CB2254C5A2500A43B15 /* Weapons.swift */,
+				7B5EB7EB2555919800000B46 /* Sword.swift */,
+				7B5EB7EE255591F100000B46 /* Stick.swift */,
+				7B5EB7F12555920900000B46 /* Dagger.swift */,
+				7B5EB7F42555922C00000B46 /* Crossbow.swift */,
+				7BF43CB8254C5A3F00A43B15 /* Game.swift */,
+				7BF43CBB254C5A6900A43B15 /* Players.swift */,
 			);
 			path = P03_01_Xcode_Game;
 			sourceTree = "<group>";
@@ -119,7 +161,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5EB7EF255591F100000B46 /* Stick.swift in Sources */,
 				7BF43CAB254C310700A43B15 /* main.swift in Sources */,
+				7BF43CBC254C5A6900A43B15 /* Players.swift in Sources */,
+				7B5EB7B72555574B00000B46 /* Charmer.swift in Sources */,
+				7B5EB7F52555922C00000B46 /* Crossbow.swift in Sources */,
+				7B03AD65255000AC00DF21AF /* DemonHunter.swift in Sources */,
+				7BF43CB3254C5A2500A43B15 /* Weapons.swift in Sources */,
+				7B5EB7EC2555919800000B46 /* Sword.swift in Sources */,
+				7BF43CB6254C5A3400A43B15 /* Champions.swift in Sources */,
+				7B5EB7BC255557E400000B46 /* Monk.swift in Sources */,
+				7B03AD622550009F00DF21AF /* Barbarian.swift in Sources */,
+				7BF43CB9254C5A3F00A43B15 /* Game.swift in Sources */,
+				7B03AD5C2550008E00DF21AF /* Wizzard.swift in Sources */,
+				7B03AD5F2550009800DF21AF /* Crusader.swift in Sources */,
+				7B5EB7F22555920900000B46 /* Dagger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
