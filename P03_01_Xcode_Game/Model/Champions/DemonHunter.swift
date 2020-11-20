@@ -8,9 +8,11 @@
 import Foundation
 
 class DemonHunter : Champion {
-    var role = DemonHunter.category.DPS
+    
+    init() {
+        super.init(name: "demon hunter", life: 100, category: .DPS, weapon: Crossbow())
+    }
  }
 
-var demonHunter = DemonHunter(name: "Hunter!", life: 100)
 
 

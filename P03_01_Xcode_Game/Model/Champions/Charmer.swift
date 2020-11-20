@@ -7,11 +7,13 @@
 
 import Foundation
 class Charmer : Champion {
-    var role = Charmer.category.DPS
+    
+    init() {
+        super.init(name: "charmer", life: 100, category: .heal, weapon: Stick())
+    }
     
 }
 
-var charmer = Charmer(name: "Charmer!", life: 100)
 
 
 

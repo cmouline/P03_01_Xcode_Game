@@ -7,11 +7,14 @@
 
 import Foundation
 class Crusader : Champion {
-    var role = Crusader.category.tank
+   
+    init() {
+        super.init(name: "crusader", life: 150, category: .tank, weapon: Sword())
+    }
    
  }
 
-var crusader = Crusader(name: "Knight!", life: 120)
+
 
 
 

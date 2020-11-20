@@ -7,9 +7,11 @@
 
 import Foundation
 class Barbarian : Champion {
-    var role = Barbarian.category.tank
+    
+    init() {
+        super.init(name: "barbarian", life: 150, category: .tank, weapon: Sword())
+    }
    
  }
 
-var barbarian = Barbarian(name: "Barbarian!", life: 120)
 

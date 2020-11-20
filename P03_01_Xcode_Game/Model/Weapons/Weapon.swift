@@ -6,14 +6,16 @@
 //
 
 import Foundation
-class Weapons {
+class Weapon {
     
-    var weaponName : String
-    var weaponDamage : Int
+    var weaponName: String
+    var weaponDamage: Int
+    var heal: Int
     
-    init(weaponName : String, weaponDamage : Int) {
+    init(weaponName: String, weaponDamage: Int, heal: Int) {
         self.weaponName = weaponName
         self.weaponDamage = weaponDamage
+        self.heal = heal
     }
     
-        }
+}

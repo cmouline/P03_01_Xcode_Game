@@ -7,12 +7,14 @@
 
 import Foundation
 class Wizzard : Champion {
-    var role = Wizzard.category.heal
+   
+    init() {
+        super.init(name: "wizzard", life: 100, category: .DPS, weapon: Dagger())
+    }
     
    
  }
 
-var wizzard = Wizzard(name: "Wizzard!", life: 80)
 
 
 
