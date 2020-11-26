@@ -11,16 +11,13 @@ enum State {
     case onGoing, pause, over
 }
 
-enum result {
-    case winner, looser
-}
 
 class Game {
     var score = 0
     public var currentIndex = 0
     var state: State = .onGoing
     var championList : [Champion] = [Charmer(), DemonHunter(), Wizzard(), Crusader(), Barbarian(), Monk()]
-    var championSelected = [Champion]()
+    
     
     
     func refresh() {
@@ -116,8 +113,15 @@ class Game {
         
     }
     
+    func championSelect() {
+        print("You have too choose 3 champions in your team, 1 heal, 1 tank and 1 DPS in the following list.")
+        for champion in game.championList {
+            print("The \(champion.name) is a \(champion.category)")
+        }
+        
+    
 }
 
 
-
+}
 
