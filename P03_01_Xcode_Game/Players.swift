@@ -7,14 +7,9 @@
 
 import Foundation
 
-enum PlayerPosition {
-    case J1, J2
-    
-}
-
 class Player {
-    var championSelectedJ1 = [Champion]() // Tableau de champion selectionnés par le joueur 1
-    var championSelectedJ2 = [Champion]() // Tableau de champion selectionnés par le joueur 1
+    var championSelected = [Champion]() // Tableau de champion selectionnés par le joueur
+    
     
     
     // WINNER : Func permettant de déterminer le gagnant.

@@ -7,19 +7,19 @@
 
 import Foundation
 
-print("Hello, Summoner! Welcome to Sword Conquest! ⚔️")
+print("Hello, Summoner! Welcome to Sword Conquest! ⚔️\n")
 
 // print("Do you play with a friends ? Type friend. Or you want to fight against the bot ? Type bot ")
 var game = Game()
-game.championSelect() // Appeller la méthode pour J1 avec le tableau de J1
-game.promptChampions()
-print("Super! Team is ready, let's GO!")
+game.printChampionSelect()
+game.promptChampions(game.player1)
+print("Super! Team is ready, let's GO!\n")
 
 
-print("Player 2 is u turn to select a team!")
-game.championSelect() // penser appeller tab j2 en paramètre de la méthode
-game.promptChampions()
-print("Super! Team is ready, let's GO!")
+print("Player 2 is u turn to select a team!\n")
+game.printChampionSelect()
+game.promptChampions(game.player2)
+print("Super! Team is ready, let's GO!\n")
 
 State.onGoing
 
