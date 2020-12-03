@@ -9,7 +9,7 @@ import Foundation
 class Charmer : Champion {
     
     init() {
-        super.init(name: "charmer", life: 100, category: .heal, weapon: Stick())
+        super.init(pIndex: 1, pName: "charmer", pLife: 100, category: .heal, weapon: Stick())
     }
     
 }

@@ -9,7 +9,7 @@ import Foundation
 class Crusader : Champion {
    
     init() {
-        super.init(name: "crusader", life: 150, category: .tank, weapon: Sword())
+        super.init(pIndex: 5, pName: "crusader", pLife: 150, category: .tank, weapon: Sword())
     }
    
  }

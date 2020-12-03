@@ -6,6 +6,11 @@
 //
 
 import Foundation
+
+enum Spell {
+    case attack, heal
+}
+
 class Weapon {
     
     var weaponName: String

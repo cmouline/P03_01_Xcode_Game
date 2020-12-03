@@ -9,9 +9,17 @@ import Foundation
 
 class Player {
     var championSelected = [Champion]() // Tableau de champion selectionnés par le joueur
+    var deadChampion: Int = 0 // Stock the number of dead champions of the team
+    var name : String
+    
+    init(pName: String) {
+        self.name = pName
+    }
     
     
     
-    // WINNER : Func permettant de déterminer le gagnant.
+    
+   
+    // Statistique de team
 }
 

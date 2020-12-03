@@ -7,35 +7,54 @@
 
 import Foundation
 
-print("Hello, Summoner! Welcome to Sword Conquest! ⚔️\n")
+var game = Game()
+print("Welcome to Sword Conquest! ⚔️\n")
+
+game.player1.name = game.hello()
+game.player2.name = game.hello()
+
+
+
+print("""
+  *******************************************************************
+
+  *****************  ⚔️⚔️   CHAMPION SELECT   ⚔️⚔️  *****************
+
+  ********************************************************************
+""")
+
+print(" \(game.player1.name) you have too choose 3 champions 🧙🏼‍♀️🧟‍♀️🧝🏾 in your team, 1 heal, 1 tank and 1 DPS in the following list.\n")
 
 // print("Do you play with a friends ? Type friend. Or you want to fight against the bot ? Type bot ")
-var game = Game()
-game.printChampionSelect()
+
+game.printChampionList(pChampions: game.championList)
 game.promptChampions(game.player1)
 print("Super! Team is ready, let's GO!\n")
 
 
-print("Player 2 is u turn to select a team!\n")
-game.printChampionSelect()
+print("\(game.player2.name) is u turn to select a team!\n You have too choose 3 champions 🧙🏼‍♀️🧟‍♀️🧝🏾 in your team, 1 heal, 1 tank and 1 DPS in the following list.\n")
+
+game.printChampionList(pChampions: game.championList)
 game.promptChampions(game.player2)
 print("Super! Team is ready, let's GO!\n")
 
-State.onGoing
 
-// Sélection d'un champion par son nom et choix d'une action pour J1
-print(" Player 1, choose a champion and his action for this turn.")
-// Le programme applique les choix et détermine si la partie continue ou non
+print("""
+   ********************************************************************
 
-// Sélection d'un champion par son nom et choix d'une action pour J2
-print(" Player 2, choose a champion and his action for this turn.")
+   *****************  ⚔️⚔️   LET'S FIGHT !!!   ⚔️⚔️  *****************
 
-// Le programme applique les choix et détermine si la partie continue ou non
-// Tout ceci boucle jusqu'à ce qu'une des deux équipes voit ses champions à 0 PV
+   ********************************************************************
+""")
 
-print("Félicitation winner vous avez gagné la partie")
+
+game.play()
+
+
+
+
+//print("Félicitation \(winner) vous avez gagné la partie")
 // Affichage des statistiques de la partie
-
 // print(\(dmg), \(tour)) 
 
 
