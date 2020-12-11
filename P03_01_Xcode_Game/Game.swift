@@ -25,7 +25,7 @@ class Game {
     
     // algo qui vérifie dans les 2 tableaux J1 et J2 si le nom y est ou pas (retourne true or false)
     func isUserNameAvailable(userName: String) -> Bool {
-        if self.player1.championSelected.contains(where: {$0.name == userName}) && self.player2.championSelected.contains(where: {$0.name == userName}) {
+        if self.player1.championSelected.contains(where: {$0.name == userName}) || self.player2.championSelected.contains(where: {$0.name == userName}) {
             return false
         }
         return true
@@ -133,9 +133,9 @@ class Game {
     }
     
     func magicChest(champion: Champion) {
-        let randomAppear = Int.random(in: 1...10) // 1/2 chances chest pop up
+        let randomAppear = Int.random(in: 1...10) // 1/10 chances chest pop up
         let randomContent = Int.random(in: 1...5) // 5 possibilities for the content of the chest
-        if randomAppear == 2 && randomAppear == 6 && randomAppear == 9 {
+        if randomAppear == 2 || randomAppear == 6 || randomAppear == 9 {
             print("A Chest just popped up !!")
             print("")
             print("")
@@ -145,7 +145,7 @@ class Game {
             
             switch randomContent {
             case 1:
-                print("You found a new weapon : Gungnir!! Your got the power of Odin!")
+                print("You found a new weapon : Gungnir!! Your got the power of Odin 70 damage!")
                 champion.weapon = Gungnir()
             case 2:
                 print("The chest was empty")
