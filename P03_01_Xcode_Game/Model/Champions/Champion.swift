@@ -14,8 +14,8 @@ enum Category: String {
     
 }
 
+
 class Champion: Equatable {
-    
     static func == (lhs: Champion, rhs: Champion) -> Bool {
         return lhs.index == rhs.index
     }
@@ -49,6 +49,7 @@ class Champion: Equatable {
             return true
         }
     }
+    
 }
 
 

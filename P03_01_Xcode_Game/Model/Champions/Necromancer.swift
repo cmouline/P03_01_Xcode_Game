@@ -6,10 +6,10 @@
 //
 
 import Foundation
-class Charmer : Champion {
+class Necromancer : Champion {
     
     init() {
-        super.init(pIndex: 1, pName: "charmer", pLife: 100, category: .heal, weapon: Stick())
+        super.init(pIndex: 1, pName: "necromancer", pLife: 100, category: .heal, weapon: Stick())
     }
     
 }
